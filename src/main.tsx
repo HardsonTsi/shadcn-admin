@@ -10,7 +10,7 @@ import '@/index.css'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
-      <LanguageProvider defaultLanguage='en' storageKey='vite-ui-language'>
+      <LanguageProvider defaultLanguage='fr' storageKey='vite-ui-language'>
         <RouterProvider router={router} />
         <Toaster />
       </LanguageProvider>

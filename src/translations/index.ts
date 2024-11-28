@@ -1,4 +1,4 @@
 import * as en from './en.json'
 import * as zh from './zh.json'
-
-export default { en, zh }
+import * as fr from './fr.json'
+export default { en, zh, fr }

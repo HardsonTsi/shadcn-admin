@@ -14,6 +14,7 @@ export default function LanguageSwitch() {
 
   const languageText = new Map<string, string>([
     ['en', 'English'],
+    ['fr', 'Français'],
     ['zh', '简体中文'],
   ])
 
